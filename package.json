@@ -1,0 +1,22 @@
+{
+  "name": "change-detection-service",
+  "version": "1.0.0",
+  "description": "Change Detection & DB Diff Service (Stage 3) - Dual-layer verification, micro-batching & atomic upserts",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.12.0",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1",
+    "pg": "^8.13.0",
+    "pino": "^9.4.0",
+    "pino-pretty": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+
